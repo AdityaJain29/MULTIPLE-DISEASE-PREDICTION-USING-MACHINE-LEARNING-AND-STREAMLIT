@@ -4,13 +4,16 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('"D:\Project\multiple disease prediction\diabetes_model.sav"', 'rb'))
+diabetes_model = pickle.load(open('Multiple-Disease-Prediction-Using-Machine-Learning-And-Streamlit
+/diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('Multiple-Disease-Prediction-Using-Machine-Learning-And-Streamlit
+/heart_disease_model.sav','rb'))
 
 parkinsons_model = pickle.load(open('"D:\Project\multiple disease prediction\parkinsons_model.sav"', 'rb'))
 
-Covid_19_model = pickle.load(open('Covid_19_model.sav', 'rb'))
+Covid_19_model = pickle.load(open('Multiple-Disease-Prediction-Using-Machine-Learning-And-Streamlit
+/Covid_19_model.sav', 'rb'))
 
 
 

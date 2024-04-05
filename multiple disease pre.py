@@ -10,7 +10,8 @@ diabetes_model = pickle.load(open('Multiple-Disease-Prediction-Using-Machine-Lea
 heart_disease_model = pickle.load(open('Multiple-Disease-Prediction-Using-Machine-Learning-And-Streamlit
 /heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('"D:\Project\multiple disease prediction\parkinsons_model.sav"', 'rb'))
+parkinsons_model = pickle.load(open('Multiple-Disease-Prediction-Using-Machine-Learning-And-Streamlit
+/parkinsons_model.sav', 'rb'))
 
 Covid_19_model = pickle.load(open('Multiple-Disease-Prediction-Using-Machine-Learning-And-Streamlit
 /Covid_19_model.sav', 'rb'))
